@@ -1,0 +1,125 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.main {
+	margin: auto;
+	width: 900px;
+}
+
+.row {
+	display: flex;
+	width: 100%;
+}
+
+header {
+	width: 800px;
+}
+
+h1 {
+	color: black;
+	font-family: "Lato", sans-serif;
+	font-size: 60px;
+	font-weight: 300;
+	margin-bottom: 0;
+	text-align: right;
+}
+
+h2 {
+	color: inherit;
+	font-family: "Lato", sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+	margin: 0;
+	text-align: right;
+}
+
+hr {
+	border-color: #bcbbbb;
+	border-width: 3px; 
+	margin-top: 2%;
+}
+
+.caption {
+	color: #bcbbbb ;
+	font-family: "Open Sans", sans-serif;
+	font-size: 36px;
+	text-align: left;
+}
+
+#codepic {
+	width: 900px;
+}
+
+#subtitle {
+	display: block;
+}
+
+#logo {
+	height: 110px;
+	margin: 30px 0 0 20px;
+	width: 110px;
+}
+
+.pic {
+	width: 33.3%;
+}
+
+#appify {
+	padding-right: 3%;
+	width: 33.3%;
+}
+
+#sunflower { 
+	padding-right: 2%;
+	width: 33.3%;
+}
+
+#bokeh {
+	padding-left: 1%;
+	width: 33.3%;
+}
+
+.pic-header {
+	color: #686767;
+	font-family: "Lato",sans-serif;
+	font-size: 36px;
+	margin-top: 1%;
+	text-align: center;
+	width: 33%;
+}
+
+.pic-subber {
+	color: #bcbbbb;
+	font-family: "Lato",sans-serif;
+	font-size: 16px;
+	text-align: center;
+	width: 33%;
+}
+
+.comment {
+	color: #030e65;
+	font-family: "Slabo 27px", serif;
+	font-weight: 600;
+	text-align: center;
+	width: 33%;
+}
+
+footer {
+	display: flex;
+	width: 100%;
+}
+
+#tagline {
+	color: inherit;
+	font-family: "Lato", sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	margin-top: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
